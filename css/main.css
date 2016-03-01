@@ -1,0 +1,80 @@
+body
+{
+	padding:0;
+	margin:0;
+	background: rgba(226,226,226,1);
+	background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(23%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+	background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+}
+#register_body
+{
+	width:70%;
+	margin:auto;
+	border:solid black 2px;
+	padding:5px 25px;
+	margin-top:15px;
+	background-color:white;
+}
+#error_message
+{
+	display:none;
+	padding:10px 25px;	
+	font-size:16px;
+	font-weight:bolder;
+}
+
+hr
+{
+	border:solid black 1px;
+}
+input[type*='submit']
+{
+	margin-bottom:15px;	
+}
+.shadow
+{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);	
+}
+.border_radius
+{
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+}
+#confirm_body
+{
+    width: 330px;
+    border: solid black 2px;
+    background-color: white;
+	padding: 15px 25px;
+    text-align: center;
+	margin:auto;
+	margin-top:15px;
+}
+#confirm_body h2
+{
+	padding:0px;
+	margin:0px;
+}
+#confirm_body p
+{
+	font-size: 18px;	
+}
+@media screen and (max-width: 900px) {
+	#register_body
+	{
+		width:90%;
+		margin:15px auto;
+	}
+	.shadow
+	{
+		
+	}
+}
