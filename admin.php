@@ -24,8 +24,8 @@
             <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
                     <th>Address</th>
                     <th>City</th>
                     <th>State</th>
